@@ -12,6 +12,11 @@
   z-index: 5;
   margin-right: 30px;
 
+  .empty-message {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 50px auto;
+  }
   .cart-items {
     height: 300px;
     display: flex;
