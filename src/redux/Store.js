@@ -6,9 +6,9 @@ import RootReducer from './RootReducer';
 
 const middlewares = [];
 
-if(ProcessingInstruction.env.NODE_ENV === 'development'){
+if(process.env.NODE_ENV === 'dev'){
     middlewares.push(logger);
-}
+} 
 
 export const Store = createStore(RootReducer, applyMiddleware(...middlewares))
 
