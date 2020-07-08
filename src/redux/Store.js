@@ -6,7 +6,7 @@ import RootReducer from './RootReducer';
 
 const middlewares = [];
 
-if(ProcessingInstruction.env.NODE_ENV === 'developement'){
+if(ProcessingInstruction.env.NODE_ENV === 'development'){
     middlewares.push(logger);
 }
 
