@@ -12,6 +12,12 @@
   z-index: 5;
   margin-right: 30px;
 
+  @media screen and (max-width: 800px) {
+    width: 250px;
+    height: 350px;
+    margin-right: 0; 
+  }
+
   .empty-message {
     font-size: 1.6rem;
     font-weight: bold;
