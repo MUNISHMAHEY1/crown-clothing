@@ -45,6 +45,10 @@ export const OptionLink = styled(Link)`
     font-weight: bold;
     cursor: pointer;
 
+    :hover {
+       color: red; 
+    }
+
     @media screen and (max-width: 800px){
         font-size: 1.19rem;
         padding: 10px 12px;   
