@@ -26,16 +26,19 @@ Desktop View               |  Mobile View
 - **_[SCSS](https://sass-lang.com/documentation/syntax "Learn more about SCSS")_** used for styling the components.
 - **_[Styled Components](https://styled-components.com/ "Learn more about Styled Components")_** used in some components to style the application.
 - **_[React Hooks](https://reactjs.org/docs/hooks-intro.html "Learn about React Hooks")_** used in the front-end to avoid using stateful components.
+- `Jest` used for Unit Testing. 
+- `Heroku` was used to deploy the application.
 
 
 ## `Installation Guide`
 ### Steps to run in development mode
 - Fork the repo and clone it.
-- Make sure you have `npm`, `Node.js`, `Apollo`, `GraphQL` & `MongoDB` installed in your system.
+- Make sure you have `npm` and `Node.js` installed in your system.
 - Check the libraries and packages needed from `package.json` file under the dependencies object.
-- Open two terminal windows (one for running Server and other for the UI).
-- Start MongoDB service with sudo service mongod start.
-- Run `npm start` to run server or use `npm run dev` to use nodemon package for detecting changes automatically.
-- Run `npm start` to start the server. By default it will run on port 5000.
-- Navigate to the client folder in your terminal and type `npm start` to run the UI. It will open on a new tab on port 3000.
+- In the terminal type npm install to install the packaged of the application.
+- Setup your **_[Firebase](https://firebase.google.com/ "Learn more about Firebase")_** account.
+- Setup your **_[Stripe API](https://stripe.com/en-ca "Learn more about stripe")_** account.
+- Open `src/components/stripe-button/StripeCheckoutButton.js` and replace the publishable key with your stripe publishable key.
+- Create `.env` file in src and put it in `.gitignore`. Now put your stripe screte key in .env file by creating a `STRIPE_SECRET_KEY` variable.
+- Run `npm run dev` to run server or  and client side at the same time.
 - Go to http://localhost:3000 to see the application running. **_(Happy Coding)_**
