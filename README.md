@@ -33,12 +33,12 @@ Desktop View               |  Mobile View
 ## `Installation Guide`
 ### Steps to run in development mode
 - Fork the repo and clone it.
-- Make sure you have `npm` and `Node.js` installed in your system.
-- Check the libraries and packages needed from `package.json` file under the dependencies object.
-- In the terminal type npm install to install the packaged of the application.
+- Make sure you have **`npm`** and **`Node.js`** installed in your system.
+- Check the libraries and packages needed from **`package.json`** file under the dependencies object.
+- In the terminal type **`npm install`** to install the packaged of the application.
 - Setup your **_[Firebase](https://firebase.google.com/ "Learn more about Firebase")_** account.
 - Setup your **_[Stripe API](https://stripe.com/en-ca "Learn more about stripe")_** account.
-- Open `src/components/stripe-button/StripeCheckoutButton.js` and replace the publishable key with your stripe publishable key.
-- Create `.env` file in src and put it in `.gitignore`. Now put your stripe screte key in .env file by creating a `STRIPE_SECRET_KEY` variable.
-- Run `npm run dev` to run server or  and client side at the same time.
+- Open **`src/components/stripe-button/StripeCheckoutButton.js`** and replace the publishable key with your stripe publishable key.
+- Create **`.env`** file in src and put it in **`.gitignore`**. Now put your stripe screte key in .env file by creating a **`STRIPE_SECRET_KEY`** variable.
+- Run **`npm run dev`** to run server or  and client side at the same time.
 - Go to http://localhost:3000 to see the application running. **_(Happy Coding)_**
